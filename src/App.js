@@ -1,29 +1,13 @@
-import "./App.css";
-/*
-import { Greet } from "./components/Great";
 import logo from "./logo.svg";
+import "./App.css";
+import { Greet } from "./components/great";
 import Welcome from "./components/welcome";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
-import Welcome from "./components/welcome";
-*/
-
-import { Dprops1 } from "./components/Dprops1";
-import Dprops2 from "./components/Dprops2";
 
 function App() {
   return (
-    <div>
-      <Dprops1 name="tle" heroName="Thor">
-        <p>This is children props</p>
-      </Dprops1>
-
-      <Dprops2 name="Clark" heroName="Superman">
-        <p>This is children props</p>
-      </Dprops2>
-    </div>
-    /*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -52,7 +36,6 @@ function App() {
         </a>
       </header>
     </div>
-    */
   );
 }
 
