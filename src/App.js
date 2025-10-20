@@ -3,13 +3,18 @@ import "./App.css";
 import { Greet } from "./components/great";
 import Welcome from "./components/welcome";
 import Hello from "./components/Hello";
+import Message from "./components/Message";
+import Counter from "./components/Counter";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello world!</p>
+        <Message name="tle" heroName="Thor">
+          <p>This is children props</p>
+        </Message>
+        <Counter addValue={1} />
         <Greet name="tle" heroName="Thor">
           <p>This is children props</p>
         </Greet>
