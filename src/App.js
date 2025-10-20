@@ -7,13 +7,20 @@ import Hello from "./components/Hello";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
 import Welcome from "./components/welcome";
-*/
-
 import { Dprops1 } from "./components/Dprops1";
 import Dprops2 from "./components/Dprops2";
+*/
+
+import FunctionClick from "./components/FunctionClick";
+import ClassClick from "./components/ClassClick";
 
 function App() {
   return (
+    <div className="App">
+      <FunctionClick></FunctionClick>
+      <ClassClick />
+    </div>
+    /*
     <div>
       <Dprops1 name="tle" heroName="Thor">
         <p>This is children props</p>
@@ -23,7 +30,7 @@ function App() {
         <p>This is children props</p>
       </Dprops2>
     </div>
-    /*
+    
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
