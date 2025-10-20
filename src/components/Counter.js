@@ -41,11 +41,11 @@ class Counter extends Component {
     return (
       <div>
         <div>
-          <div>count - {this.state.count}</div>
+          <div>count add 1 - {this.state.count}</div>
           <button onClick={() => this.increment()}>Increment</button>
         </div>
         <div>
-          <div>count - {this.state.count}</div>
+          <div>count add 5 - {this.state.count}</div>
           <button onClick={() => this.incrementFive()}>Increment</button>
         </div>
       </div>
