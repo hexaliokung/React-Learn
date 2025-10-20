@@ -10,7 +10,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello world!</p>
-        <Greet />
+        <Greet name="tle" heroName="Thor">
+          <p>This is children props</p>
+        </Greet>
+        <Greet name="Clark" heroName="Superman">
+          <button>Action</button>
+        </Greet>
         <Welcome />
         <Hello />
         <p>
