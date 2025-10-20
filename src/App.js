@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Greet } from "./components/great";
 import Welcome from "./components/welcome";
+import Hello from "./components/Hello";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <p>Hello world!</p>
         <Greet />
         <Welcome />
+        <Hello />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
